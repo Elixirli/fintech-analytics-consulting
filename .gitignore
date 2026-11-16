@@ -1,0 +1,20 @@
+# Private / sensitive records
+private/
+opt_sevis/
+tax_records/
+client_confidential/
+*.pem
+*.key
+
+# Personal identifiers / immigration / tax documents
+*EIN*Confirmation*.pdf
+*I-20*.pdf
+*SEVP*.pdf
+*SEVIS*.pdf
+
+# Temporary files
+.DS_Store
+Thumbs.db
+~$*.xlsx
+__pycache__/
+.ipynb_checkpoints/
